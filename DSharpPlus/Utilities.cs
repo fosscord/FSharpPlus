@@ -81,7 +81,7 @@ namespace DSharpPlus
         }
 
         internal static string GetApiBaseUri()
-            => Endpoints.BASE_URI;
+            => Endpoints.BASE_API_URI;
 
         internal static Uri GetApiUriFor(string path)
             => new($"{GetApiBaseUri()}{path}");
